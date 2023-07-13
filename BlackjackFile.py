@@ -11,22 +11,7 @@ print(Panel('                                                        WELCOME TO 
 #Login System, can be... Guest account, Create a new cccount, existent account.
 print('[purple]Hello There, You need to login\n')
 while True:
-    question = Prompt.ask('''[purple]type 1 - to Guest account
-Type 2 - to Create a new account
-type 3 - to login with a existent account''')
-    if question == '1':
-        pass
-    elif question == '2':
-        print('\n[red]Still in progress!!!!\n')
-        continue
-    
-    elif question == '3':
-        print('\n[red]Still in progress!!!\n')
-        continue
-    else:
-        print('\n[red]Wrong type idiot!\n')
-        continue
-    nickname = Prompt.ask("\n[purple]Type your name")
+    nickname = Prompt.ask("[purple]Type your name for start")
     question = Prompt.ask('\n[purple]Do you want learn roles?(yes/no)').lower().strip()
     if 'yes' in question:
         print('\n[green]IMPORTANT: Blackjack ou Vinte-e-um é um jogo praticado com cartas em casinos e que pode ser jogado com 1 a 8 baralhos de 52 cartas, em que o objetivo é ter mais pontos do que o adversário, mas sem ultrapassar os 21 (caso em que se perde). O dealer só pode pedir até um máximo de 5 cartas ou até chegar ao número 17')
