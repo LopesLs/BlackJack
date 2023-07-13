@@ -5,7 +5,7 @@
 Um jogo de blackjack feito em linguagem python
 
 ### De fork e clone o repositório
-- Para com chave Shh
+- Para com chave ssh
 
 ```console
 user:~$ git@github.com:LopesLs/BlackJack.git
